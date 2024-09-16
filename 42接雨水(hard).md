@@ -23,7 +23,7 @@ n == height.length<br>
 
 
 # 解题思路
-![42.解题思路](image.png)
+![42.解题思路](pic/image0.png)
 维护一个stack，从左向右遍历数组<br>
 
 对比`stack.peek` vs `currNum`
@@ -34,7 +34,7 @@ n == height.length<br>
       1. 中：stack.remove
       2. 左：stack.peek
       3. 右：currNum
-        ![alt text](image-1.png)
+        ![alt text](pic/image-1.png)
 
     2. 注水：
        1. height = min(左, 右) - 中
